@@ -4,12 +4,12 @@ title: How to create plugin
 sidebar_label: How to
 ---
 
-A `merry` plugin can write via `JavaScript` or `TypeScript`. both of them are identical.
+A `hakka` plugin can write via `JavaScript` or `TypeScript`. both of them are identical.
 
 You can create a new plugin using
 
 ```sh
-merry plugin -h
+hakka plugin -h
 ```
 
 we have a builtin plugin can help you
@@ -38,7 +38,7 @@ Demonstrate how to create a plugin that generate a `React` Component
 file `component.ts`
 
 ```ts
-import { Plugin, Action } from '@merryjs/cli/lib/plugin'
+import { Plugin, Action } from '@hakkajs/cli/lib/plugin'
 import { getPath } from './utils'
 export interface ComponentAnswers {
 	name: string
@@ -140,7 +140,7 @@ export default async (api: Plugin) => {
 entry file `index.ts`
 
 ```ts
-import { Plugin, Action } from '@merryjs/cli/lib/plugin'
+import { Plugin, Action } from '@hakkajs/cli/lib/plugin'
 import path from 'path'
 import component from './component'
 

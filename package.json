@@ -1,12 +1,12 @@
 {
-  "name": "@merryjs/cli",
-  "version": "1.9.1",
+  "name": "@hakkajs/cli",
+  "version": "2.0.0",
   "description": "A cli for everything ❤️",
   "license": "MIT",
-  "repository": "bang88/merry-cli",
+  "repository": "bang88/hakka-cli",
   "author": "bang <sqibang@gmail.com> github.com/bang88 ",
   "bin": {
-    "merry": "lib/cli.js"
+    "hakka": "lib/cli.js"
   },
   "engines": {
     "node": ">=8"
@@ -23,8 +23,8 @@
   "keywords": [
     "cli-app",
     "cli",
-    "merry",
-    "merryjs-cli"
+    "hakka",
+    "hakkajs-cli"
   ],
   "dependencies": {
     "chalk": "^2.3.1",

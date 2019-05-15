@@ -6,12 +6,12 @@ import { getConf } from '../lib/config'
 const [program, conf, cwd] = [
 	getProgram(),
 	getConf(),
-	__dirname + '/merry-plugin-test/package.json',
+	__dirname + '/hakka-plugin-test/package.json',
 ]
 
 test('Initialization Plugin without crashes', async t => {
 	const plugin = new Plugin(program, conf, cwd)
-	t.is(plugin.pkg.name, 'merry-plugin-test')
+	t.is(plugin.pkg.name, 'hakka-plugin-test')
 })
 
 test('fs', async t => {

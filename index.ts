@@ -154,7 +154,7 @@ export class App {
 	 * @param plugin local plugin for debug
 	 *  - ./path/to/plugin-entry
 	 *  - /path/to/plugin-entry
-	 *  - merry-plugin-awesome-plugin
+	 *  - hakka-plugin-awesome-plugin
 	 * @param options
 	 */
 	private async debug(plugin: string, options: any) {

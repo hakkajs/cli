@@ -24,14 +24,14 @@ export default (api: Plugin) => {
 					if (api.fs.existsSync(pkgPath)) {
 						try {
 							const pkg: Package = api.fs.readJsonSync(pkgPath)
-							if (!pkg.merry) {
+							if (!pkg.hakka) {
 								pkg[api.conf.namespace] = {}
 							}
 							if (options.dist) {
-								pkg.merry.dist = options.dist
+								pkg.hakka.dist = options.dist
 							}
 							if (options.pluginDir) {
-								pkg.merry.pluginDir = options.pluginDir
+								pkg.hakka.pluginDir = options.pluginDir
 							}
 
 							await api.fs.writeFile(

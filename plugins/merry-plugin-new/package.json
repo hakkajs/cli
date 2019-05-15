@@ -1,8 +1,11 @@
 {
-  "name": "merry-plugin-new",
+  "name": "hakka-plugin-new",
   "version": "1.0.0",
   "main": "index.js",
   "license": "MIT",
   "description": "create new project based on templates",
-  "keywords": ["merry-plugin-new", "merry-plugin"]
+  "keywords": [
+    "hakka-plugin-new",
+    "hakka-plugin"
+  ]
 }

@@ -14,11 +14,11 @@ const users = [
 	//   pinned: true,
 	// },
 ]
-const repoUrl = 'https://github.com/merryjs/cli'
+const repoUrl = 'https://github.com/hakkajs/cli'
 const siteConfig = {
-	title: 'Merry' /* title for your website */,
+	title: 'hakka' /* title for your website */,
 	tagline: 'A command line help you manage project related generators',
-	url: 'https://merryjs.github.io' /* your website url */,
+	url: 'https://hakkajs.github.io' /* your website url */,
 	baseUrl: '/cli/' /* base url for your project */,
 	headerLinks: [
 		{ doc: 'how', label: 'Plugins' },
@@ -29,7 +29,7 @@ const siteConfig = {
 		},
 		{ languages: false },
 	],
-	editUrl: 'https://merryjs.github.io/cli/edit/master/docs/',
+	editUrl: 'https://hakkajs.github.io/cli/edit/master/docs/',
 	// users,
 	/* path to images for header/footer */
 	// headerIcon: 'img/docusaurus.svg',
@@ -46,8 +46,8 @@ const siteConfig = {
 		myOtherFont: ['-apple-system', 'system-ui'],
 	},
 	// This copyright info is used in /core/Footer.js and blog rss/atom feeds.
-	copyright: 'Copyright © ' + new Date().getFullYear() + ' Merryjs.com',
-	organizationName: 'merryjs', // or set an env variable ORGANIZATION_NAME
+	copyright: 'Copyright © ' + new Date().getFullYear() + ' hakkajs.com',
+	organizationName: 'hakkajs', // or set an env variable ORGANIZATION_NAME
 	projectName: 'cli', // or set an env variable PROJECT_NAME
 	highlight: {
 		// Highlight.js theme to use for syntax highlighting in code blocks

@@ -121,9 +121,9 @@ const FeatureCallout = props => (
 		className="productShowcaseSection paddingBottom"
 		style={{ textAlign: 'center' }}
 	>
-		<h2>npm install -g @merryjs/cli</h2>
+		<h2>npm install -g @hakkajs/cli</h2>
 		<MarkdownBlock>
-			After installation finished type `merry` for more informations
+			After installation finished type `hakka` for more informations
 		</MarkdownBlock>
 	</div>
 )

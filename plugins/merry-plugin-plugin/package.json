@@ -1,7 +1,7 @@
 {
-  "name": "merry-plugin-plugin",
+  "name": "hakka-plugin-plugin",
   "version": "1.0.1",
   "main": "index.js",
   "license": "MIT",
-  "description": "generate merry plugin"
+  "description": "generate hakka plugin"
 }

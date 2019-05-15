@@ -1,6 +1,6 @@
 import pkgConf from 'pkg-conf'
 const debug = require('debug')('app:conf')
-const namespace = 'merry'
+const namespace = 'hakka'
 export interface PkgConf {
 	namespace: string
 	/**
@@ -23,7 +23,7 @@ export const getConf = (): PkgConf => {
 	}
 
 	conf = pkgConf.sync(namespace)
-	// rc configuration does not support merry config commands
+	// rc configuration does not support hakka config commands
 	if (JSON.stringify(conf) === '{}') {
 		conf = require('rc')(namespace, {})
 	}
@@ -34,7 +34,7 @@ export const getConf = (): PkgConf => {
 	if (!conf.pluginDir) {
 		conf.pluginDir = 'plugins'
 	}
-	conf.prefix = 'merry-plugin-'
+	conf.prefix = 'hakka-plugin-'
 	conf.namespace = namespace
 	debug('loading configurations: %o', conf)
 	return conf

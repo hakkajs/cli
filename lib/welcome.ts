@@ -3,7 +3,7 @@ import fs from 'fs-extra'
 import path from 'path'
 
 const pkg = fs.readJSONSync(path.join(__dirname, '..', 'package.json'))
-const merry = `
+const hakka = `
 ${chalk.gray(pkg.description)}
 
 ${chalk.blue('88888b.d88b.')}   ${chalk.magenta('.d88b.')}  ${chalk.green(
@@ -34,4 +34,4 @@ ${chalk.blue('888  888  888')}  ${chalk.magenta('"Y8888')}  ${chalk.green(
 ${chalk.cyan(pkg.version)}
 `
 
-console.log(merry)
+console.log(hakka)

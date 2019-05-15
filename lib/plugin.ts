@@ -42,7 +42,7 @@ export interface Package {
 	devDependencies: {
 		[key: string]: string
 	}
-	merry: PkgConf
+	hakka: PkgConf
 	[key: string]: any
 }
 export class Plugin {

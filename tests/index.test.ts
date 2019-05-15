@@ -12,5 +12,5 @@ class TestApp extends App {
 
 test('Initialization App without crashes', async t => {
 	const app = new TestApp()
-	t.is(app.getConf.prefix, 'merry-plugin-')
+	t.is(app.getConf.prefix, 'hakka-plugin-')
 })
